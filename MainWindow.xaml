@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogViewer"
+        xmlns:Collections="clr-namespace:System.Collections;assembly=System.Runtime" x:Class="LogViewer.MainWindow"
+        mc:Ignorable="d"
+        Title="LogViewer" Height="450" Width="800" Foreground="white" Background="#FF001029">
+    <Grid Margin="0,0,0,-6">
+        <ScrollViewer Name="Scroller" Margin="0,0,0,51">
+            <TextBox Name="OutputBlock" Padding="15" IsReadOnly="True" Background="#33000000" Foreground="White" FontFamily="Consolas" FontSize="16" BorderBrush="{x:Null}" SelectionTextBrush="{x:Null}"/>
+        </ScrollViewer>
+        <TextBlock HorizontalAlignment="Right" Margin="0,0,49,15"  TextWrapping="Wrap" Text="Autoscroll" VerticalAlignment="Bottom" FontFamily="Consolas" FontSize="24"/>
+        <CheckBox Name="Autoscroll" HorizontalAlignment="Right" Margin="0,0,10,14" VerticalAlignment="Bottom" FontSize="36" RenderTransformOrigin="0.473,-0.507" Height="15" Width="17">
+            <CheckBox.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2" />
+            </CheckBox.LayoutTransform>
+        </CheckBox>
+    </Grid>
+</Window>

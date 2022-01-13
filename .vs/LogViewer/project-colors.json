@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f7c725ae-c725-4bb5-9bde-6d0cfedfdb1d": {
+      "ProjectGuid": "f7c725ae-c725-4bb5-9bde-6d0cfedfdb1d",
+      "DisplayName": "LogViewer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
